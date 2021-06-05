@@ -1,5 +1,5 @@
 #include "tm4c123gh6pm.h"	
-
+#include "tm4c123.h"
 void LCD1_Data(unsigned char data){
 	GPIO_PORTA_DATA_R = 0X04;//change this when you connect gps
 	GPIO_PORTB_DATA_R = data;
